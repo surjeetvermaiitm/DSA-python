@@ -42,5 +42,6 @@ def insert_at_front(head,data):
     head=x
     return head
 a=insert_at_front(a,0)
-print(a)  
+print(a) 
+ 
     
