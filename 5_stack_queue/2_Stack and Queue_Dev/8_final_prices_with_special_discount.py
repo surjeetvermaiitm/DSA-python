@@ -15,9 +15,8 @@ class Solution(object):
                 st.pop()
             if st:
                 ans[i]=prices[i]-prices[st[-1]]
-                st.append(i)
             else:
-                st.append(i)
                 ans[i]=prices[i]
+            st.append(i)
         return ans
                 
